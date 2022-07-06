@@ -1,20 +1,9 @@
 # Password-Generator
 Password Generator created using javascript
 
+As specified by grading critera, prompts are given when a user clicks on generate password button. User answer to prompts will determine characteristics of password 
+such as length and character types. 
 
-Acceptance criteria of assignment 
-GIVEN I need a new, secure password
-WHEN I click the button to generate a password
-THEN I am presented with a series of prompts for password criteria
-WHEN prompted for password criteria
-THEN I select which criteria to include in the password
-WHEN prompted for the length of the password
-THEN I choose a length of at least 8 characters and no more than 128 characters
-WHEN asked for character types to include in the password
-THEN I confirm whether or not to include lowercase, uppercase, numeric, and/or special characters
-WHEN I answer each prompt
-THEN my input should be validated and at least one character type should be selected
-WHEN all prompts are answered
-THEN a password is generated that matches the selected criteria
-WHEN the password is generated
-THEN the password is either displayed in an alert or written to the page
+Link to deployed page: https://luan-pham.github.io/Password-Generator/
+
+<img src="./assets/pw-generator.png" alt="image of password generator">
