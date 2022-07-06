@@ -9,6 +9,8 @@ function generatePassword (){
   var genNumber = "123456789" .split('')
   var symbols = "!@#$%^&*()_+=/?.><" .split('')
   var PWlength = prompt("Please enter length of password between 8-128", "8-128")
+    if (PWlength <8 || PWlength >128) {alert("Length must be between 8-128")
+      return}
   var asklowerCase = prompt ("Pass with lowercase letters?", "yes/no")
   var askUppercase = prompt("Password with uppercase letters?", "yes/no")
   var askNumbers = prompt("Password with numbers?","yes/no")
